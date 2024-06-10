@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: thunderstore-build
-          path: ExampleMod/dist/*.zip
+          path: DealReroll/dist/*.zip
 
   upload-release-artifacts:
     needs: build
@@ -64,7 +64,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: thunderstore-build
-          path: ExampleMod/dist
+          path: DealReroll/dist
 
       - name: Restore Tools
         run: |
