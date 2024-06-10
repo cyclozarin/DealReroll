@@ -20,11 +20,7 @@ readme = "../../README.md"
 outdir = "../dist"
 
 [[build.copy]]
-source = "../../LICENSE"
-target = "/"
-
-[[build.copy]]
-source = "../bin/Release/netstandard2.1/DealReroll.dll"
+source = "../bin/Release/netstandard2.1/cyclozarin.contentwarning.DealReroll.dll"
 target = "/BepInEx/plugins/DealReroll/"
 
 [publish]
